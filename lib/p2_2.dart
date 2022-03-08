@@ -58,12 +58,6 @@ enum sous {hot, sour, cheese}
       scaffoldMessengerKey: _messengerKey,
       home: Scaffold(
 
-
-        //appBar: AppBar(),
-
-
-
-
         appBar: AppBar(
           title: Text("Пицца"),
           actions:<Widget> [
@@ -81,7 +75,6 @@ enum sous {hot, sour, cheese}
             ), //Кнопка
           ],
         ),
-
 
 
         drawer: Drawer(
@@ -151,16 +144,9 @@ enum sous {hot, sour, cheese}
                 },
               ),
 
-
-
             ],
           ),
         ),
-
-
-
-
-
 
 
         body: Container(
