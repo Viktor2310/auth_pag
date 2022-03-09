@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 ThemeData globalThem() => ThemeData(
   fontFamily: 'Arial',
-  splashColor: Colors.indigoAccent,// цвет нажатия
+  splashColor: Colors.teal,// цвет нажатия
 
   colorScheme: ColorScheme.fromSwatch(
     brightness: Brightness.light,

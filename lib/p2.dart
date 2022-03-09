@@ -44,7 +44,7 @@ class start extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(children: [
               SizedBox(height: 100,),
-              const SizedBox(width: 2000,height: 84, child:Image(image: AssetImage('assets/colo.png')),), //картинка
+              const SizedBox(width: 2000,height: 84, child:Image(image: AssetImage('assets/colo.jpg')),), //картинка
               SizedBox(height: 20,),
               const Text('Введите логин в виде 10 цифр номера телефона',
                 textAlign: TextAlign.center,

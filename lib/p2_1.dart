@@ -29,6 +29,7 @@ class reg extends StatelessWidget {
 
       home: Scaffold(
         body: Container(
+
           //изображение фона
           decoration: const BoxDecoration(
               image: DecorationImage(
