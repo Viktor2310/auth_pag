@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_sliders/sliders.dart';
 import 'package:intl/intl.dart';
 
+import 'global_theme.dart';
+
 class calca1 extends StatefulWidget {
   const calca1 ({Key? key}) : super(key: key);
 
@@ -56,6 +58,8 @@ enum sous {hot, sour, cheese}
 
     return MaterialApp(
       scaffoldMessengerKey: _messengerKey,
+      theme: globalThem(),
+
       home: Scaffold(
 
         appBar: AppBar(
@@ -302,7 +306,7 @@ enum sous {hot, sour, cheese}
                 ),
               ),
 
-              SizedBox(height: 20,),
+              SizedBox(height: 10,),
 
               Row(
                 children: [
@@ -315,7 +319,7 @@ enum sous {hot, sour, cheese}
               Text(' 130 рублей',style: TextStyle(fontSize: 28, color: Color.fromRGBO(0,0,0,1), fontWeight: FontWeight.bold ),),
 
 
-              SizedBox(height: 20,),
+              SizedBox(height: 10,),
 
 
               SizedBox(width:154,height: 42,child:

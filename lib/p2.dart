@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'global_theme.dart';
+
 
 class start extends StatelessWidget {
   const start({Key? key}) : super(key: key);
@@ -20,6 +22,10 @@ class start extends StatelessWidget {
     );// цвет текста
 
     return MaterialApp(
+
+
+      theme: globalThem(),
+
       home: Scaffold(
 
         body: Container(

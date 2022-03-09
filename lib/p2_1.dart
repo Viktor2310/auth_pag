@@ -2,6 +2,8 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
+import 'global_theme.dart';
+
 
 class reg extends StatelessWidget {
   const reg ({Key? key}) : super(key: key);
@@ -23,6 +25,8 @@ class reg extends StatelessWidget {
 
 
     return MaterialApp(
+      theme: globalThem(),
+
       home: Scaffold(
         body: Container(
           //изображение фона

@@ -79,7 +79,6 @@ class _NavigationScreenState extends State<NavigationScreen> {
                 onTap: (){
                   _messengerKey.currentState!.showSnackBar(
                       const SnackBar(content: Text('Переход  в настройки')));
-
                   //обработчик
                 },
               ),
