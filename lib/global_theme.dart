@@ -13,6 +13,6 @@ ThemeData globalThem() => ThemeData(
   textTheme:const TextTheme(
     headline1: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold,fontFamily: 'Arial'),
     headline6: TextStyle(fontSize: 20.0, fontStyle:FontStyle.italic ,fontFamily: 'Arial'),
-    bodyText2: TextStyle(fontSize: 14.0,fontFamily: 'Arial',color: Colors.blueGrey),
+    bodyText2: TextStyle(fontSize: 16.0,fontFamily: 'Arial',color: Colors.blueGrey),
   ),
 );
